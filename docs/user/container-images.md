@@ -70,20 +70,20 @@ Registries: `602401143452.dkr.ecr.us-west-2.amazonaws.com`, `cr.kgateway.dev`, `
 
 ### gpu-operator
 
-- `nvcr.io/nvidia/cloud-native/dcgm:4.5.2-1-ubuntu22.04`
-- `nvcr.io/nvidia/cloud-native/gdrdrv:v2.5.2`
-- `nvcr.io/nvidia/cloud-native/k8s-cc-manager:v0.4.0`
-- `nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.10.0`
-- `nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.14.0`
-- `nvcr.io/nvidia/cloud-native/nvidia-fs:2.27.3`
-- `nvcr.io/nvidia/cloud-native/nvidia-sandbox-device-plugin:v0.0.3`
-- `nvcr.io/nvidia/cloud-native/vgpu-device-manager:v0.4.2`
+- `nvcr.io/nvidia/cloud-native/dcgm:4.6.0-1-ubuntu24.04`
+- `nvcr.io/nvidia/cloud-native/gdrdrv:v2.6`
+- `nvcr.io/nvidia/cloud-native/k8s-cc-manager:v0.4.3`
+- `nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.12.0`
+- `nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.15.0`
+- `nvcr.io/nvidia/cloud-native/nvidia-fs:2.29.4`
+- `nvcr.io/nvidia/cloud-native/nvidia-sandbox-device-plugin:v0.0.5`
+- `nvcr.io/nvidia/cloud-native/vgpu-device-manager:v0.5.0`
 - `nvcr.io/nvidia/driver:580.105.08`
-- `nvcr.io/nvidia/gpu-operator:v26.3.1`
-- `nvcr.io/nvidia/k8s-device-plugin:v0.19.0`
-- `nvcr.io/nvidia/k8s/container-toolkit:v1.19.0`
-- `nvcr.io/nvidia/k8s/dcgm-exporter:4.5.1-4.8.0-distroless`
-- `nvcr.io/nvidia/kubevirt-gpu-device-plugin:v1.5.0`
+- `nvcr.io/nvidia/gpu-operator:v26.7.0`
+- `nvcr.io/nvidia/k8s-device-plugin:v0.20.0`
+- `nvcr.io/nvidia/k8s/container-toolkit:v1.20.0`
+- `nvcr.io/nvidia/k8s/dcgm-exporter:4.6.0-4.8.3-distroless`
+- `nvcr.io/nvidia/kubevirt-gpu-device-plugin:v1.6.0`
 - `vgpu-manager`
 
 ### grove
@@ -135,7 +135,7 @@ _No images extracted._
 ### network-operator
 
 - `busybox:1.36`
-- `nvcr.io/nvidia/cloud-native/network-operator:v26.1.1`
+- `nvcr.io/nvidia/cloud-native/network-operator:v26.7.0`
 - `nvcr.io/nvidia/doca/doca_telemetry:1.22.5-doca3.1.0-host`
 - `nvcr.io/nvidia/mellanox/doca-driver:doca3.2.0-25.10-1.2.8.0-2`
 - `nvcr.io/nvidia/mellanox/k8s-rdma-shared-dev-plugin:network-operator-v26.1.0`
